@@ -105,6 +105,9 @@ product/media/audio/ui/camera_focus.ogg
 product/media/audio/ui/reverse_charging_end.ogg
 product/media/audio/ui/reverse_charging_start.ogg
 
+# Pixel Tips
+product/priv-app/TipsPrebuilt/TipsPrebuilt.apk;PRESIGNED
+
 # SafetyHub
 -product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk;OVERRIDES=EmergencyInfo;PRESIGNED
 -system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
@@ -125,8 +128,10 @@ product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=Soun
 -product/app/PixelThemesStub/PixelThemesStub.apk;PRESIGNED
 -product/app/PixelWallpapers2022/PixelWallpapers2022.apk;PRESIGNED
 product/app/WallpaperEmojiPrebuilt/WallpaperEmojiPrebuilt.apk;PRESIGNED
+product/app/WallpapersBReel2020/WallpapersBReel2020.apk;PRESIGNED
 -product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk;PRESIGNED
 product/priv-app/WallpaperEffect/WallpaperEffect.apk;PRESIGNED
+product/lib64/libgdx.so
 -system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=ThemePicker,WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
 
 # Sysconfig

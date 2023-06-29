@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/pixel/proprietary/product/etc/sysconfig/quick_tap.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/quick_tap.xml \
     vendor/google/pixel/proprietary/product/fonts/GoogleSans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Italic.ttf \
     vendor/google/pixel/proprietary/product/fonts/GoogleSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Regular.ttf \
+    vendor/google/pixel/proprietary/product/lib64/libgdx.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgdx.so \
     vendor/google/pixel/proprietary/product/media/audio/alarms/A_real_hoot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/A_real_hoot.ogg \
     vendor/google/pixel/proprietary/product/media/audio/alarms/Bright_morning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Bright_morning.ogg \
     vendor/google/pixel/proprietary/product/media/audio/alarms/Cuckoo_clock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Cuckoo_clock.ogg \
@@ -104,12 +105,14 @@ PRODUCT_PACKAGES += \
     PixelWallpapers2022 \
     SoundPickerPrebuilt \
     WallpaperEmojiPrebuilt \
+    WallpapersBReel2020 \
     FilesPrebuilt \
     PixelLiveWallpaperPrebuilt \
     SafetyHubPrebuilt \
     SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
+    TipsPrebuilt \
     WallpaperEffect \
     EmergencyInfoGoogleNoUi \
     Flipendo \
