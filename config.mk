@@ -18,6 +18,11 @@ $(call inherit-product, vendor/google/pixel/pixel-vendor.mk)
 # Bootanimation
 include vendor/google/pixel/bootanimation/bootanimation.mk
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Fonts
 include vendor/google/pixel/fonts/fonts.mk
 
@@ -54,8 +59,7 @@ PRODUCT_PACKAGES += \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2020 \
     TurboAdapter \
-    com.google.android.apps.dialer.call_recording_audio.features \
-    product_charger_res_images
+    com.google.android.apps.dialer.call_recording_audio.features
 
 # SetupWizard
 PRODUCT_PRODUCT_PROPERTIES += \
