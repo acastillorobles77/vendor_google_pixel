@@ -111,6 +111,9 @@ PRODUCT_PACKAGES += \
     WallpaperEmojiPrebuilt \
     WallpapersBReel2020 \
     FilesPrebuilt \
+    GoogleOneTimeInitializer \
+    GoogleRestorePrebuilt \
+    PartnerSetupPrebuilt \
     PixelLiveWallpaperPrebuilt \
     SafetyHubPrebuilt \
     SecurityHubPrebuilt \
