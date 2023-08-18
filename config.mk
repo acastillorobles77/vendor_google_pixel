@@ -61,6 +61,18 @@ PRODUCT_PACKAGES += \
     TurboAdapter \
     com.google.android.apps.dialer.call_recording_audio.features
 
+# Include TurboAdapter without Google Battery support
+ifeq ($(TARGET_NOT_SUPPORTS_GOOGLE_BATTERY),true)
+PRODUCT_PACKAGES += \
+    TurboAdapter_NoBatt
+
+PRODUCT_COPY_FILES += \
+    vendor/google/pixel/proprietary/system_ext/lib64/libpowerstatshaldataprovider.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpowerstatshaldataprovider.so
+
+PRODUCT_PACKAGES += \
+    LibPowerStatsSymLink_NoBatt
+endif
+
 # SetupWizard
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.setupwizard.enterprise_mode=1 \
